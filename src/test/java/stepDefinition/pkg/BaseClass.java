@@ -6,11 +6,14 @@ import pageObject.pkg.Product;
 import org.apache.logging.log4j.*;
 
 
+
 public class BaseClass {
 
 	public LoginPage loginpg; 
 	public Product prodSelect;
 	public Checkout checker; 
 	public static Logger log;
+	
+
 	
 }

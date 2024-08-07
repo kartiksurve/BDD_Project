@@ -306,3 +306,76 @@
 [INFO ] 2024-07-21 01:19:38.083 [main] StepDef - Page title is a match
 [INFO ] 2024-07-21 01:19:38.629 [main] StepDef - Page title is a match
 [INFO ] 2024-07-21 01:19:40.231 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:05:53.846 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:05:53.931 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:05:54.818 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:05:56.284 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:05:56.287 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:05:57.035 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:05:58.579 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:05:58.582 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:05:59.317 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:07:15.604 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:07:15.699 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:07:16.418 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-22 00:07:16.552 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:17.104 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-22 00:07:17.624 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-22 00:07:17.797 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:18.056 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:07:19.665 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:07:19.668 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:07:20.732 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-22 00:07:20.863 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:21.370 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-22 00:07:21.571 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-22 00:07:21.724 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:22.010 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-22 00:07:23.490 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-22 00:07:23.493 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-22 00:07:24.147 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-22 00:07:24.298 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:24.800 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-22 00:07:25.149 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-22 00:07:25.324 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:26.005 [main] StepDef - Page title is a match
+[INFO ] 2024-07-22 00:07:27.514 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-23 19:55:39.663 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-23 19:55:39.715 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-23 19:55:40.016 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-23 19:55:40.594 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:41.151 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-23 19:55:41.407 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-23 19:55:41.609 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:41.870 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-23 19:55:43.349 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-23 19:55:43.351 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-23 19:55:43.573 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-23 19:55:44.109 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:44.647 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-23 19:55:44.854 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-23 19:55:44.957 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:45.176 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-07-23 19:55:46.646 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-07-23 19:55:46.648 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-07-23 19:55:47.292 [main] StepDef - URL searched in Browser
+[INFO ] 2024-07-23 19:55:47.410 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:47.965 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-07-23 19:55:48.158 [main] StepDef - Clicked on login button
+[INFO ] 2024-07-23 19:55:48.268 [main] StepDef - Page title is a match
+[INFO ] 2024-07-23 19:55:48.490 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-08-07 15:26:50.841 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-08-07 15:26:50.907 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-08-07 15:26:51.287 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-08-07 15:26:52.827 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-08-07 15:26:52.831 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-08-07 15:26:53.208 [main] StepDef - Chrome Browser closed
+[INFO ] 2024-08-07 15:26:54.755 [main] StepDef - Chrome Browser initialized
+[INFO ] 2024-08-07 15:26:54.758 [main] StepDef - Chrome Browser Opened
+[INFO ] 2024-08-07 15:26:56.676 [main] StepDef - URL searched in Browser
+[INFO ] 2024-08-07 15:26:56.972 [main] StepDef - Page title is a match
+[INFO ] 2024-08-07 15:26:57.627 [main] StepDef - Succesfully entered the credentials
+[INFO ] 2024-08-07 15:26:57.992 [main] StepDef - Clicked on login button
+[INFO ] 2024-08-07 15:26:58.279 [main] StepDef - Page title is a match
+[INFO ] 2024-08-07 15:26:59.234 [main] StepDef - Page title is a match
+[INFO ] 2024-08-07 15:27:01.227 [main] StepDef - Chrome Browser closed

@@ -1,8 +1,10 @@
 package stepDefinition.pkg;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.logging.LogManager;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -63,6 +65,13 @@ public void addScreenShot(Scenario scenario) {
 	byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	 scenario.attach(screenshot,"image/png",scenario.getName());
 	
+}
+
+@AfterStep
+public void addScreenShotFile(Scenario scenario) throws IOException {
+	File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+     FileUtils.copyFile(srcFile, new File (scenario.getName()+"./SeleniumScreenshots/Screen.png"));
+     
 }
 
 @Given("Open chrome browser")
