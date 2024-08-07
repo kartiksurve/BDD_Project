@@ -30,6 +30,7 @@ public WebDriver driver;
 //@Before(@Tagname) ---- For conditional hooks
 @Before()
 public void beforeEachScenario() throws IOException {
+	
 	System.out.println("Before each scenario");
 	log = org.apache.logging.log4j.LogManager.getLogger("StepDef");
 	ReadConfig readCfg = new ReadConfig();
@@ -44,18 +45,25 @@ public void beforeEachScenario() throws IOException {
 	case "msedge" :	
 		driver = new EdgeDriver();
 		break;
+	default:
+		driver = null;
+		break;
 	}
+	
+	log.info("Chrome Browser initialized");
+
+	}
+
 	/*
 	 * WebDriverManager.chromedriver().setup(); driver = new ChromeDriver();
 	 * driver.manage().window().maximize();
 	 */
-	log.info("Chrome Browser initialized");
-}
+
 
 //@After(@Sanity) --- For conditional hooks
 @After()
 public void afterEachScenario() {
-	System.out.println("Before each scenario");
+	System.out.println("After each scenario");
 	driver.close();
 	log.info("Chrome Browser closed");
 }
@@ -67,12 +75,14 @@ public void addScreenShot(Scenario scenario) {
 	
 }
 
-@AfterStep
-public void addScreenShotFile(Scenario scenario) throws IOException {
-	File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-     FileUtils.copyFile(srcFile, new File (scenario.getName()+"./SeleniumScreenshots/Screen.png"));
-     
-}
+/*
+ * @AfterStep public void addScreenShotFile(Scenario scenario) throws
+ * IOException { File srcFile = ((TakesScreenshot)
+ * driver).getScreenshotAs(OutputType.FILE); FileUtils.copyFile(srcFile, new
+ * File (scenario.getName()+"./SeleniumScreenshots/Screen.png"));
+ * 
+ * }
+ */
 
 @Given("Open chrome browser")
 public void open_chrome_browser() {
